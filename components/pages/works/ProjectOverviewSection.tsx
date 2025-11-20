@@ -4,7 +4,7 @@ import React from "react";
 interface ProjectOverviewSectionProps {
   title?: string;
   description: string;
-  image: string;
+  image: string | undefined;
   themeColor?: string; // tailwind class or custom color class, e.g. "bg-[#f5f3ff]"
 }
 

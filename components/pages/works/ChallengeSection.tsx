@@ -9,12 +9,11 @@ interface Challenge {
 }
 
 interface ChallengeSectionProps {
-    challenges: Challenge[];
-    challengeImage: string; // Image URL for the right section
-    themeColor?: string; // Tailwind class or custom color class
+    challenges: Challenge[] ;
+    challengeImage: string[]; 
 }
 
-const ChallengeSection: React.FC<ChallengeSectionProps> = ({ challenges, challengeImage , themeColor }) => {
+const ChallengeSection: React.FC<ChallengeSectionProps> = ({ challenges, challengeImage }) => {
     return (
         <div className="flex flex-col items-center py-5">
             {/* Left Section: Challenges and List */}
