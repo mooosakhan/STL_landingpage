@@ -23,7 +23,7 @@ export function Hero() {
       </div>
 
 
-      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-[7rem] pt-26 space-y-8 md:space-y-16 ">
+      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-[6rem] pt-26 space-y-8 md:space-y-12 ">
         <div className="flex w-full lg:flex-row flex-col justify-between lg:px-16 items-center gap-6">
           <div className="lg:text-[3.5rem] sm:text-5xl text-3xl flex justify-start lg:text-start text-center font-semibold leading-tight">
             Building Intelligent
