@@ -10,7 +10,7 @@ interface PageHeaderProps {
 export const PageHeader: React.FC<PageHeaderProps> = ({ title, subtitle }) => {
     return (
         <div className="py-5 space-y-6 md:space-y-5">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl max-w-4xl leading-snug">
+            <h1 className="text-3xl md:text-4xl lg:text-[2.8rem] max-w-4xl leading-snug">
                 {title}
             </h1>
 
