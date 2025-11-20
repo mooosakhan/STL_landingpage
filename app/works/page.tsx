@@ -6,19 +6,7 @@ import { Navigation } from "@/components/layout/Navigation/Navigation";
 import { PageHeader } from "@/components/common/Header/PageHeader";
 import PortfolioSection from "@/components/pages/works/ProjectsFilter";
 import { FooterCTA } from "@/components/common/FooterCTA/FooterCTA";
-import { FooterSection } from "@/components/sections/footer/footer";
 import { Footer } from "@/components/layout/Footer/Footer";
-
-interface Work {
-  id: string;
-  slug?: string;
-  title: string;
-  year?: string;
-  showoffImage?: string;
-  previewImage?: string;
-  dataContent?: string;
-  task?: string[];
-}
 
 const WorksGrid = () => {
 

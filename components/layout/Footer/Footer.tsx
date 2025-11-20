@@ -14,10 +14,10 @@ export function Footer() {
 
       <div className="relative z-10 flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
         {/* Left Section */}
-        <div className="flex flex-col justify-between gap-8 lg:w-1/3">
+        <div className="flex flex-col justify-between gap-8 lg:w-1/2">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug mb-6">
-              Let’s Build the <br /> Future Togetherd
+              Let’s Build the <br /> Future Together
             </h2>
             <button className="bg-white text-black px-6 py-2.5 rounded-full font-medium hover:bg-gray-100 transition">
               Get Started

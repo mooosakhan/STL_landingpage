@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/common/SectionHeader/SectionHeader";
 
 
 export function FAQ() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(0);
   const faqs = [
     {
       id: 1,

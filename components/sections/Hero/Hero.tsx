@@ -23,9 +23,9 @@ export function Hero() {
       </div>
 
 
-      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-32 pt-26 space-y-8 md:space-y-16 ">
+      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-[7rem] pt-26 space-y-8 md:space-y-16 ">
         <div className="flex w-full lg:flex-row flex-col justify-between lg:px-16 items-center gap-6">
-          <div className="lg:text-6xl sm:text-5xl text-3xl flex justify-start lg:text-start text-center font-semibold leading-tight">
+          <div className="lg:text-[3.5rem] sm:text-5xl text-3xl flex justify-start lg:text-start text-center font-semibold leading-tight">
             Building Intelligent
             <br /> Digital Solutions for a
             <br /> Smarter Tomorrow
@@ -38,9 +38,9 @@ export function Hero() {
               <button className="bg-zinc-100 hover:bg-zinc-300 text-[#22081c] font-light md:py-3 md:px-6 px-4 py-2 md:text-base text-sm rounded-full transition-colors cursor-pointer">
                 Get Started
               </button>
-              <div className="hidden md:flex">
-                ⭐ 4.8 Trust Score
-              </div>
+              {/* <div className="hidden md:flex">
+                 4.8 Trust Score
+              </div> */}
             </div>
           </div>
         </div>

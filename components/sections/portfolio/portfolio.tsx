@@ -1,27 +1,83 @@
+"use client";
 import { SectionHeader } from "@/components/common/SectionHeader/SectionHeader";
 import Image from "next/image";
+import pagesData from "@/assets/json/allworks.json";
+import { useRouter } from "next/navigation";
+
+// ---- Types ---- //
+type DataState = "LOADING" | "SUCCESS" | "ERROR";
+
+interface WorkDuration {
+  year?: string | number;
+  month?: string | number;
+  week?: string | number;
+}
+
+interface WorkPage {
+  id: string;
+  slug: string;
+  tagline: string;
+  title: string;
+  services: string[];
+  duration: WorkDuration;
+  industries: string[];
+  logo: string;
+  themeColor: string;
+  overview: string;
+  overviewImage?: string;
+  previewImage?: string;
+  challenges: { id: string; title: string; description: string }[];
+  challengesMockups: string[];
+  approach: string;
+  approachMockups: string[];
+  approachMockupType: "grid" | "masonry";
+  features: { id: string; title: string; description: string }[];
+  downBanner: string;
+  discoverMorePreviewImage?: string;
+  testimonials: {
+    id: string;
+    name: string;
+    position: string;
+    company: string;
+    photo: string;
+    feedback: string;
+  }[];
+  meta: {
+    title: string;
+    description: string;
+  };
+}
+
+interface PageData {
+  link: string;
+  image: string | undefined;
+}
+
 
 export function Portfolio() {
+   
+  const router = useRouter();
+
   const showcase = [
     {
       id: 1,
       image: "/images/portfolio-smit.png",
-      bg: "bg-[#B7E7A3]",
+      link: pagesData[1].id
     },
     {
       id: 2,
       image: "/images/portfolio-nahfkidunya.png",
-      bg: "bg-[#10B9A4]",
+      link: pagesData[2].id
     },
     {
       id: 3,
       image: "/images/portfolio-snapfreez.png",
-      bg: "bg-[#B9A6F6]",
+      link: pagesData[0].id
     },
     {
       id: 4,
       image: "/images/portfolio-lms.png",
-      bg: "bg-[#B7E7A3]",
+      link: pagesData[1]?.id
     },
   ];
 
@@ -45,7 +101,10 @@ export function Portfolio() {
           {showcase.map((item) => (
             <div
               key={item.id}
-              className={`flex justify-center items-center  rounded-xl  transition-transform duration-500`}
+              className={`flex justify-center items-center rounded-xl transition-transform duration-500 cursor-pointer`}
+              onClick={
+                () => router.push("/works/" + item.link)
+              }
             >
               <Image
                 src={item.image}
