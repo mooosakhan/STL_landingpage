@@ -1,0 +1,348 @@
+[
+  {
+    "id": "snapfreez",
+    "slug": "snapfreez",
+    "tagline": "ENHANCE EVENTS WITH",
+    "title": "INSTANT PHOTO SHARING MADE EASY",
+    "services": [
+      "UI/UX Design",
+      "Product Design",
+      "Backend Development",
+      "Cloud Integration"
+    ],
+    "duration": {
+      "year": "0",
+      "month": "2",
+      "week": "2"
+    },
+    "industries": ["AI"],
+    "logo": "/images/works/snapfreez/logo.png",
+    "themeColor": "rgba(91,46,255,0.05)",
+    "overview": "Snapfreez is an AI-powered photo sharing platform that instantly delivers event photos to guests via secure cloud galleries. It simplifies photo management for photographers and enhances the guest experience by providing quick, easy access to their pictures without extra apps. Snapfreez is ideal for various events, streamlining photo sharing and boosting engagement.",
+    "overviewImage": "/images/works/snapfreez/overview.png",
+    "challenges": [
+      {
+        "id": "talent-acquisition",
+        "title": "Talent Acquisition",
+        "description": "Finding skilled freelancers who meet the specific needs of businesses."
+      },
+      {
+        "id": "platform-usability",
+        "title": "Platform Usability",
+        "description": "Creating an intuitive and user-friendly platform for both freelancers and clients."
+      },
+      {
+        "id": "trust-and-safety",
+        "title": "Trust and Safety",
+        "description": "Ensuring secure transactions and building trust between freelancers and clients."
+      },
+      {
+        "id": "market-competition",
+        "title": "Market Competition",
+        "description": "Standing out in a crowded market of freelance platforms."
+      },
+      {
+        "id": "scalability",
+        "title": "Scalability",
+        "description": "Handling a growing user base and increasing project demands efficiently."
+      }
+    ],
+    "challengesMockups": [
+      "/images/works/snapfreez/challenge-mockup1.svg",
+      "/images/works/snapfreez/challenge-mockup2.svg"
+    ],
+    "approach": "At snapfreez, we adopted a user-centric design approach, focusing on creating a seamless experience for both freelancers and clients. We implemented robust security measures to ensure safe transactions and built a comprehensive talent acquisition system to match the right freelancers with the right projects. Our platform is designed to be scalable, allowing us to accommodate growth and adapt to market changes effectively.",
+    "approachMockups": [
+      "/images/works/snapfreez/approach-mockup1.svg",
+      "/images/works/snapfreez/approach-mockup2.svg",
+      "/images/works/snapfreez/approach-mockup3.svg"
+    ],
+    "approachMockupType": "masonry",
+    "features": [
+      {
+        "id": "advanced-search",
+        "title": "Advanced Search Filters",
+        "description": "Photographers can instantly upload photos from camera to cloud during the event."
+      },
+      {
+        "id": "secure-payment",
+        "title": "Secure Payment Gateway",
+        "description": "Photographer can uplaod all the event images to cloud securely and share with guests."
+      },
+      {
+        "id": "project-management",
+        "title": "Project Management Tools",
+        "description": "Guest can take thier event photos just by scanning a QR code."
+      },
+      {
+        "id": "user-reviews",
+        "title": "User Reviews and Ratings",
+        "description": "AI-Powered Tagging: Automatically tag and categorize photos using AI for easy searching and sorting."
+      },
+      {
+        "id": "customer-support",
+        "title": "24/7 Customer Support",
+        "description": "Reliable and responsive customer support available around the clock to assist users."
+      }
+    ],
+    "downBanner": "/images/works/snapfreez/down-banner.svg",
+    "testimonials": [
+      {
+        "id": "sharjeel",
+        "name": "Sharjeel Ahmad",
+        "position": "CEO & Founder,Snapfreez",
+        "company": "BrightWave Inc.",
+        "photo": "/images/works/snapfreez/testimonial1.svg",
+        "feedback": "At Snapfreez, our mission is to redefine how memories are shared. We saw the frustration in delayed photo delivery and built a solution that makes instant sharing effortless for both photographers and guests. The response has been incredible, and we're proud to be transforming the event experience one photo at a time."
+      },
+      {
+        "id": "david-l",
+        "name": "David L.",
+        "position": "Freelance Developer",
+        "company": "Self-Employed",
+        "photo": "/images/works/snapfreez/testimonial1.svg",
+        "feedback": "As a freelancer, snapfreez has provided me with numerous opportunities to work on exciting projects. The secure payment system gives me peace of mind."
+      }
+    ],
+    "meta": {
+      "title": "snapfreez – Freelance Platform Case Study",
+      "description": "A modern freelance marketplace built with scalable architecture, intuitive UX, and advanced security."
+    },
+    "discoverMorePreviewImage": "/images/works/snapfreez/approach-mockup3.svg",
+    "type": "Websites",
+    "showcaseImage1": "/images/works/snapfreez/showcase-mockup1.png",
+    "showcaseImage2": "/images/works/snapfreez/showcase-mockup2.png",
+    "showcaseText": "Browse the digital experiences we’ve created — each shaped with intent, innovation, and a commitment to delivering solutions that truly elevate how people interact with technology."
+  },
+  {
+    "id": "lms",
+    "slug": "lms",
+    "tagline": "Your go-to platform for freelance work",
+    "title": "LMS",
+    "services": [
+      "UI/UX Design",
+      "Product Design",
+      "Backend Development",
+      "Cloud Integration"
+    ],
+    "duration": {
+      "year": "0",
+      "month": "2",
+      "week": "2"
+    },
+    "industries": ["AI"],
+    "logo": "/images/works/lms/logo.png",
+    "themeColor": "rgba(138,196,68,0.05)",
+    "overview": "Snapfreez is an AI-powered photo sharing platform that instantly delivers event photos to guests via secure cloud galleries. It simplifies photo management for photographers and enhances the guest experience by providing quick, easy access to their pictures without extra apps. Snapfreez is ideal for various events, streamlining photo sharing and boosting engagement.",
+    "overviewImage": "/images/works/lms/overview.png",
+    "challenges": [
+      {
+        "id": "talent-acquisition",
+        "title": "Talent Acquisition",
+        "description": "Finding skilled freelancers who meet the specific needs of businesses."
+      },
+      {
+        "id": "platform-usability",
+        "title": "Platform Usability",
+        "description": "Creating an intuitive and user-friendly platform for both freelancers and clients."
+      },
+      {
+        "id": "trust-and-safety",
+        "title": "Trust and Safety",
+        "description": "Ensuring secure transactions and building trust between freelancers and clients."
+      },
+      {
+        "id": "market-competition",
+        "title": "Market Competition",
+        "description": "Standing out in a crowded market of freelance platforms."
+      },
+      {
+        "id": "scalability",
+        "title": "Scalability",
+        "description": "Handling a growing user base and increasing project demands efficiently."
+      }
+    ],
+    "challengesMockups": [
+      "/images/works/lms/challenge-mockup1.png",
+      "/images/works/lms/challenge-mockup2.png"
+    ],
+    "approach": "At snapfreez, we adopted a user-centric design approach, focusing on creating a seamless experience for both freelancers and clients. We implemented robust security measures to ensure safe transactions and built a comprehensive talent acquisition system to match the right freelancers with the right projects. Our platform is designed to be scalable, allowing us to accommodate growth and adapt to market changes effectively.",
+    "approachMockups": [
+      "/images/works/lms/approach-mockup1.png",
+      "/images/works/lms/approach-mockup2.png",
+      "/images/works/lms/approach-mockup3.png",
+      "/images/works/lms/approach-mockup4.png"
+    ],
+    "approachMockupType": "grid",
+    "features": [
+      {
+        "id": "advanced-search",
+        "title": "Advanced Search Filters",
+        "description": "Allow users to find freelancers based on skills, experience, and ratings."
+      },
+      {
+        "id": "secure-payment",
+        "title": "Secure Payment Gateway",
+        "description": "Ensure safe and reliable transactions between clients and freelancers."
+      },
+      {
+        "id": "project-management",
+        "title": "Project Management Tools",
+        "description": "Provide tools for tracking project progress, deadlines, and communication."
+      },
+      {
+        "id": "user-reviews",
+        "title": "User Reviews and Ratings",
+        "description": "Enable clients to leave feedback and rate freelancers based on their performance."
+      },
+      {
+        "id": "customer-support",
+        "title": "24/7 Customer Support",
+        "description": "Offer round-the-clock support to assist users with any issues or inquiries."
+      }
+    ],
+    "downBanner": "/images/works/snapfreez/down-banner.svg",
+    "testimonials": [
+      {
+        "id": "sharjeel",
+        "name": "Sharjeel Ahmad",
+        "position": "CEO & Founder,Snapfreez",
+        "company": "BrightWave Inc.",
+        "photo": "/images/works/snapfreez/testimonial1.svg",
+        "feedback": "At Snapfreez, our mission is to redefine how memories are shared. We saw the frustration in delayed photo delivery and built a solution that makes instant sharing effortless for both photographers and guests. The response has been incredible, and we're proud to be transforming the event experience one photo at a time."
+      },
+      {
+        "id": "david-l",
+        "name": "David L.",
+        "position": "Freelance Developer",
+        "company": "Self-Employed",
+        "photo": "/images/works/snapfreez/testimonial1.svg",
+        "feedback": "As a freelancer, snapfreez has provided me with numerous opportunities to work on exciting projects. The secure payment system gives me peace of mind."
+      }
+    ],
+    "meta": {
+      "title": "lms – Freelance Platform Case Study",
+      "description": "A modern freelance marketplace built with scalable architecture, intuitive UX, and advanced security."
+    },
+    "discoverMorePreviewImage": "/images/works/lms/discover-more.png",
+    "type": "MobileApp",
+    "showcaseImage1": "/images/works/lms/showcase-mockup1.png",
+    "showcaseImage2": "/images/works/lms/showcase-mockup2.png",
+    "showcaseText": "Browse the digital experiences we’ve created — each shaped with intent, innovation, and a commitment to delivering solutions that truly elevate how people interact with technology."
+  },
+  {
+    "id": "academicscheduler",
+    "slug": "academicscheduler",
+    "tagline": "Your go-to platform for freelance work",
+    "title": "AcademicScheduler",
+    "services": [
+      "UI/UX Design",
+      "Product Design",
+      "Backend Development",
+      "Cloud Integration"
+    ],
+    "duration": {
+      "year": "0",
+      "month": "2",
+      "week": "2"
+    },
+    "industries": ["AI"],
+    "logo": "/images/works/AcademicScheduler/logo.png",
+    "themeColor": "rgba(138, 196, 68, 0.05)",
+    "overview": "AcademicScheduler is an AI-powered photo sharing platform that instantly delivers event photos to guests via secure cloud galleries. It simplifies photo management for photographers and enhances the guest experience by providing quick, easy access to their pictures without extra apps. AcademicScheduler is ideal for various events, streamlining photo sharing and boosting engagement.",
+    "overviewImage": "/images/works/AcademicScheduler/overview.png",
+    "challenges": [
+      {
+        "id": "talent-acquisition",
+        "title": "Talent Acquisition",
+        "description": "Finding skilled freelancers who meet the specific needs of businesses."
+      },
+      {
+        "id": "platform-usability",
+        "title": "Platform Usability",
+        "description": "Creating an intuitive and user-friendly platform for both freelancers and clients."
+      },
+      {
+        "id": "trust-and-safety",
+        "title": "Trust and Safety",
+        "description": "Ensuring secure transactions and building trust between freelancers and clients."
+      },
+      {
+        "id": "market-competition",
+        "title": "Market Competition",
+        "description": "Standing out in a crowded market of freelance platforms."
+      },
+      {
+        "id": "scalability",
+        "title": "Scalability",
+        "description": "Handling a growing user base and increasing project demands efficiently."
+      }
+    ],
+    "challengesMockups": [
+      "/images/works/AcademicScheduler/mockup-challenge1.png",
+      "/images/works/AcademicScheduler/mockup-challenge2.png"
+    ],
+    "approach": "At snapfreez, we adopted a user-centric design approach, focusing on creating a seamless experience for both freelancers and clients. We implemented robust security measures to ensure safe transactions and built a comprehensive talent acquisition system to match the right freelancers with the right projects. Our platform is designed to be scalable, allowing us to accommodate growth and adapt to market changes effectively.",
+    "approachMockups": [
+      "/images/works/AcademicScheduler/mockup-approach1.png",
+      "/images/works/AcademicScheduler/mockup-approach2.png",
+      "/images/works/AcademicScheduler/mockup-approach3.png"
+    ],
+    "approachMockupType": "grid",
+    "features": [
+      {
+        "id": "advanced-search",
+        "title": "Advanced Search Filters",
+        "description": "Allow users to find freelancers based on skills, experience, and ratings."
+      },
+      {
+        "id": "secure-payment",
+        "title": "Secure Payment Gateway",
+        "description": "Ensure safe and reliable transactions between clients and freelancers."
+      },
+      {
+        "id": "project-management",
+        "title": "Project Management Tools",
+        "description": "Provide tools for tracking project progress, deadlines, and communication."
+      },
+      {
+        "id": "user-reviews",
+        "title": "User Reviews and Ratings",
+        "description": "Enable clients to leave feedback and rate freelancers based on their performance."
+      },
+      {
+        "id": "customer-support",
+        "title": "24/7 Customer Support",
+        "description": "Offer round-the-clock support to assist users with any issues or inquiries."
+      }
+    ],
+    "downBanner": "/images/works/AcademicScheduler/down-banner.png",
+    "testimonials": [
+      {
+        "id": "emily-r",
+        "name": "Emily R.",
+        "position": "Marketing Manager",
+        "company": "BrightWave Inc.",
+        "photo": "/images/works/AcademicScheduler/testimonial1.png",
+        "feedback": "AcademicScheduler has been a game-changer for our marketing projects. The platform's ease of use and the quality of freelancers available have exceeded our expectations."
+      },
+      {
+        "id": "david-l",
+        "name": "David L.",
+        "position": "Freelance Developer",
+        "company": "Self-Employed",
+        "photo": "/images/works/AcademicScheduler/testimonial2.png",
+        "feedback": "As a freelancer, AcademicScheduler has provided me with numerous opportunities to work on exciting projects. The secure payment system gives me peace of mind."
+      }
+    ],
+    "meta": {
+      "title": "AcademicScheduler – Freelance Platform Case Study",
+      "description": "A modern freelance marketplace built with scalable architecture, intuitive UX, and advanced security."
+    },
+    "discoverMorePreviewImage": "/images/works/academicScheduler/discover-more.png",
+    "type": "Saas",
+    "showcaseImage1": "/images/works/academicScheduler/showcase-mockup1.png",
+    "showcaseImage2": "/images/works/academicScheduler/showcase-mockup2.png",
+    "showcaseText": "Browse the digital experiences we’ve created — each shaped with intent, innovation, and a commitment to delivering solutions that truly elevate how people interact with technology."
+  }
+]
