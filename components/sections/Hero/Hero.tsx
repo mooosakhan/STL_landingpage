@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="h-[87vh] bg-zinc-300/50  text-white overflow-hidden flex items-center justify-center ">
+    <section className="h-[85vh] text-white overflow-hidden flex items-center justify-center ">
       {/* Animated Background Image */}
       <div
         // initial={{ opacity: 0.3, scale: 1 }}
@@ -16,7 +16,7 @@ export function Hero() {
         <img
           src="/images/hero-background.svg"
           alt="Hero Background"
-          className="object-cover scale-y-97 xl:scale-x-98  scale-x-97 w-full  rounded-3xl"
+          className="object-cover scale-y-97 xl:scale-x-98 absolute translate-y-1 scale-x-97 w-full  h-[99%] rounded-3xl"
         />
       </div>
 
