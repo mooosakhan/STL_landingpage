@@ -5,20 +5,18 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="h-[86vh] text-white overflow-hidden flex items-center justify-center ">
+    <section className="h-[87vh] bg-zinc-300/50  text-white overflow-hidden flex items-center justify-center ">
       {/* Animated Background Image */}
       <div
         // initial={{ opacity: 0.3, scale: 1 }}
         // animate={{ opacity: 1, scale: 1 }}
         // transition={{ duration: 1.5, ease: "easeOut" }}
-        className="absolute inset-0 z-10 overflow-hidden"
+        className="absolute inset-0 z-10 overflow-"
       >
-        <Image
+        <img
           src="/images/hero-background.svg"
           alt="Hero Background"
-          fill
-          className="object-cover scale-y-97 xl:scale-x-98  scale-x-97 rounded-3xl"
-          priority
+          className="object-cover scale-y-97 xl:scale-x-98  scale-x-97 w-full  rounded-3xl"
         />
       </div>
 

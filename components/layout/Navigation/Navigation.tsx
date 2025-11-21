@@ -50,7 +50,7 @@ export function Navigation({ theme = "dark" }: NavigationProps) {
     >
       {/* Top bar */}
       <div className="flex justify-between items-center px-6 md:px-16 py-6 md:py-8">
-        <a href="/" onClick={handleLogoClick} className="flex items-center">
+        <a href="/" onClick={handleLogoClick} className="flex items-center z-[999]">
           <Image
             src={logoSrc}
             alt="Logo"
@@ -78,7 +78,7 @@ export function Navigation({ theme = "dark" }: NavigationProps) {
 
         {/* Mobile Hamburger / Cross */}
         <button
-          className={`${textColor} md:hidden focus:outline-none`}
+          className={`${textColor} md:hidden focus:outline-none relative z-50`}
           onClick={() => setIsOpen((prev) => !prev)}
           aria-label={isOpen ? "Close menu" : "Open menu"}
         >

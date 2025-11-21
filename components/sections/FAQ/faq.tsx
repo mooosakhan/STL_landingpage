@@ -42,7 +42,7 @@ export function FAQ() {
   ];
 
   return (
-    <section className="w-full py-5 md:py-20">
+    <section className="w-full py-15 md:py-2">
       <div className="max-w-8xl mx-auto px-6 lg:px-16">
         <SectionHeader
           title={
@@ -63,7 +63,7 @@ export function FAQ() {
             {faqs.map((faq, index) => (
               <div key={faq.id}>
                 <div
-                  className={`w-full flex flex-col text-2xl text-left font-medium rounded-lg transition-all duration-200  
+                  className={`w-full flex flex-col text-left font-medium rounded-lg transition-all duration-200  
                     ${activeIndex === index
                       ? "bg-[#4D143D] text-white"
                       : "bg-zinc-100 hover:bg-zinc-200 text-gray-900"
@@ -73,7 +73,7 @@ export function FAQ() {
                     onClick={() =>
                       setActiveIndex(activeIndex === index ? null : index)
                     }
-                    className="flex justify-between  items-center w-full px-6 py-6"
+                    className="flex justify-between text-lg md:text-xl items-center w-full px-6 py-6"
                   >
                     <span>
                       {faq.id}. {faq.question}
@@ -98,9 +98,7 @@ export function FAQ() {
 
           {/* Right Column */}
           <div className="lg:flex flex-col hidden  gap-6">
-            {/* Contact Card */}
             <div className="bg-[#4D143D] text-white rounded-2xl p-6 sm:p-10 gap-2 flex flex-col items-center text-center w-full">
-              {/* next/image - maintain responsive sizing */}
               <div className="w-[170px] h-[170px] relative">
                 <Image
                   src="/images/icon-faq-message.png"

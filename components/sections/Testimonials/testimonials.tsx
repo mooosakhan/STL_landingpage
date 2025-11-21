@@ -65,7 +65,7 @@ export function Testimonials() {
                     height={20}
                   />
                 </div>
-                <p className="text-gray-700 text-2xl leading-8">
+                <p className="text-gray-700 text-lg md:text-xl leading-8">
                   {item.text}
                 </p>
               </div>
