@@ -21,7 +21,7 @@ export function Features({
 }: Props) {
   return (
     <section
-      className={`w-full px-6 md:px-10 lg:px-14 pt-15 pb-5 md:py-16 ${className}`}
+      className={`w-full px-6 md:px-10 lg:px-14 py-5 pb-5 md:py-16 ${className}`}
     >
       {/* Header */}
       <SectionHeader
@@ -36,13 +36,13 @@ export function Features({
         layout="split"
       />
 
-      <div className="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         <div className="rounded-2xl bg-[#F4F4F4] backdrop-blur p-6 md:p-10">
           <div className="w-full flex items-center justify-center">
             {/* Either use SVG OR the image prop */}
             <ExperienceSVG />
           </div>
-          <div className="mt-10">
+          <div className="mt-5">
             <h3 className="text-lg md:text-2xl font-semibold text-zinc-900">
               Experience &amp; Expertise
             </h3>
@@ -58,7 +58,7 @@ export function Features({
           <div className="w-full flex items-center justify-center">
             <PersonalizedSVG />
           </div>
-          <div className="mt-10">
+          <div className="mt-5">
             <h3 className="text-lg md:text-2xl font-semibold text-zinc-900">
               Personalized Approach
             </h3>
@@ -74,7 +74,7 @@ export function Features({
           <div className="w-full flex items-center justify-center">
             <CountdownTimer />
           </div>
-          <div className="mt-10">
+          <div className="mt-5">
             <h3 className="text-lg md:text-2xl font-semibold text-zinc-900">
               Speed &amp; Efficiency
             </h3>
@@ -90,7 +90,7 @@ export function Features({
           <div className="w-full flex items-center justify-center">
             <Efficiency />
           </div>
-          <div className="mt-10">
+          <div className="mt-5">
             <h3 className="text-lg md:text-2xl font-semibold text-zinc-900">
               Speed &amp; Efficiency
             </h3>
@@ -884,7 +884,7 @@ export const CountdownTimer = () => {
     <svg width="697" height="238" viewBox="0 0 697 238" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* <rect x="50" y="10" width="300" height="180" rx="15" ry="15" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" /> */}
       {/* Background Rectangle with Rounded Corners */}
-      <rect x="268.641" y="27.1387" width="198" height="130" rx="10" fill="white" stroke="#e0e0e0" strokeWidth="2" />
+      <rect x="252.641" y="23.1387" width="238" height="150" rx="10" fill="white" stroke="#e0e0e0" strokeWidth="2" />
 
       {/* Animated Timer Text */}
       <motion.text

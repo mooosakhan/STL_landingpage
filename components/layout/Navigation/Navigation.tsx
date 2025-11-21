@@ -46,7 +46,7 @@ export function Navigation({ theme = "dark" }: NavigationProps) {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="relative top-0 left-0 w-full z-50"
+      className="relative top-2 left-0 w-full z-50"
     >
       {/* Top bar */}
       <div className="flex justify-between items-center px-6 md:px-16 py-6 md:py-8">

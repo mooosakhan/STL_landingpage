@@ -5,12 +5,8 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="h-[85vh] text-white overflow-hidden flex items-center justify-center ">
-      {/* Animated Background Image */}
+    <section className="md:h-[85vh]  h-[90vh]  text-white overflow-hidden flex items-center justify-center ">
       <div
-        // initial={{ opacity: 0.3, scale: 1 }}
-        // animate={{ opacity: 1, scale: 1 }}
-        // transition={{ duration: 1.5, ease: "easeOut" }}
         className="absolute inset-0 z-10 overflow-"
       >
         <img
@@ -21,7 +17,7 @@ export function Hero() {
       </div>
 
 
-      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-[6rem] pt-26 space-y-8 md:space-y-12 ">
+      <div className="flex flex-col items-center justify-start h-full text-center z-12 w-full md:pt-[6rem] pt-[4rem] space-y-8 md:space-y-12 ">
         <div className="flex w-full lg:flex-row flex-col justify-between lg:px-16 items-center gap-6">
           <div className="lg:text-[3.5rem] sm:text-5xl text-3xl flex justify-start lg:text-start text-center font-semibold leading-tight">
             Building Intelligent
@@ -46,28 +42,28 @@ export function Hero() {
         <div className="mt-6  w-full px-8 ">
           <div className="grid grid-cols-2 md:flex md:flex-row justify-center items-center gap-y-8 md:gap-y-0 md:space-x-8 lg:space-x-16 text-center">
             <div className="flex flex-col justify-center items-center gap-2">
-              <div className="md:text-4xl text-3xl font-bold">500+</div>
+              <div className="md:text-4xl text-2xl font-bold">500+</div>
               <div className="text-zinc-400">Projects Completed</div>
             </div>
 
             <div className="hidden md:block w-[1px] h-[40px] bg-zinc-500/50 rounded-full"></div>
 
             <div className="flex flex-col justify-center items-center gap-2">
-              <div className="md:text-4xl text-3xl font-bold ">100+</div>
+              <div className="md:text-4xl text-2xl font-bold ">100+</div>
               <div className="text-zinc-400">Satisfied Clients</div>
             </div>
 
             <div className="hidden md:block w-[1px] h-[40px] bg-zinc-500/50 rounded-full"></div>
 
             <div className="flex flex-col justify-center items-center gap-2">
-              <div className="md:text-4xl text-3xl font-bold">20+</div>
+              <div className="md:text-4xl text-2xl font-bold">20+</div>
               <div className="text-zinc-400">Expert Developers</div>
             </div>
 
             <div className="hidden md:block w-[1px] h-[40px] bg-zinc-500/50 rounded-full"></div>
 
             <div className="flex flex-col justify-center items-center gap-2">
-              <div className="md:text-4xl text-3xl font-bold">5+</div>
+              <div className="md:text-4xl text-2xl font-bold">5+</div>
               <div className="text-zinc-400">Country Reach</div>
             </div>
           </div>
