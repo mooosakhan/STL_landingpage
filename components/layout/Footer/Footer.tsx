@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export function Footer() {
+  const Router = useRouter();
+
   return (
     <footer
       className="w-full text-white py-12 px-6 sm:px-10 md:px-16 lg:px-20 rounded-2xl bg-cover bg-center relative overflow-hidden"
@@ -19,7 +22,9 @@ export function Footer() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug mb-6">
               Let’s Build the <br /> Future Together
             </h2>
-            <button className="bg-white text-black px-6 py-2.5 rounded-full font-medium hover:bg-gray-100 transition">
+            <button
+              onClick={() => Router.push('/contact')}
+              className="bg-white text-black px-6 py-2.5 rounded-full font-medium hover:bg-gray-100 transition">
               Get Started
             </button>
           </div>

@@ -92,7 +92,7 @@ export function Features({
           </div>
           <div className="mt-5">
             <h3 className="text-lg md:text-2xl font-semibold text-zinc-900">
-              Speed &amp; Efficiency
+              Growth
             </h3>
             <p className="mt-2 text-xs md:text-lg leading-relaxed text-zinc-500">
               Agile processes and smart execution help us deliver faster without

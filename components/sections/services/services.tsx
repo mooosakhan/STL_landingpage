@@ -1,10 +1,15 @@
 
+"use client";
+
 
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeader } from "@/components/common/SectionHeader/SectionHeader";
+import { useRouter } from "next/navigation";
 
 export function Services() {
+  const Router = useRouter();
+
   const services = [
     {
       id: "01",
@@ -14,8 +19,8 @@ export function Services() {
     },
     {
       id: "02",
-      title: "Web Development",
-      desc: "Our development team builds robust, scalable web applications using the latest technologies to deliver high-performance solutions tailored to your business needs.",
+      title: "Web & App Development",
+      desc: "Our development team builds robust, scalable web and mobile applications using the latest technologies to deliver high-performance solutions tailored to your business needs.",
       img: "/images/service-webdevelopment.png",
     },
     {
@@ -57,8 +62,11 @@ export function Services() {
                 <p className="text-gray-600 text-md leading-relaxed mb-6">
                   {service.desc}
                 </p>
-                <button className="flex items-center gap-1 text-md text-white bg-[#55144C] hover:bg-[#44103e] px-4 py-2 rounded-md">
-                  View More <ArrowUpRight size={14} />
+                <button 
+                  onClick={() => Router.push('/contact')}
+                  className="flex items-center gap-1 text-md text-white bg-[#55144C] hover:bg-[#44103e] px-4 py-2 rounded-md"
+                >
+                  Get Started <ArrowUpRight size={14} />
                 </button>
               </div>
 

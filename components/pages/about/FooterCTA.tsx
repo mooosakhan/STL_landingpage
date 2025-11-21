@@ -1,8 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export const FooterCTA = () => {
+  const Router = useRouter();
+
   return (
     <div className="relative mx-auto mt-16 mb-10 max-w-6xl">
       {/* Background Image */}
@@ -26,7 +29,9 @@ export const FooterCTA = () => {
             simpler solutions.
           </p>
 
-          <button className="bg-white text-[#4D143D] px-6 py-2.5 rounded-full font-medium hover:bg-gray-200 transition">
+          <button
+            onClick={() => Router.push('/contact')}
+            className="bg-white text-[#4D143D] px-6 py-2.5 rounded-full font-medium hover:bg-gray-200 transition">
             Get Started
           </button>
         </div>

@@ -35,11 +35,12 @@ export function FAQ() {
     },
     {
       id: 5,
-      question: "What technologies do you specialize in?",
+      question: "Can you handle custom software development?",
       answer:
-        "We specialize in React, Next.js, Node.js, Express, and various AI-powered solutions.",
+        "Absolutely! We provide custom software development tailored to your business needs, ensuring scalable and efficient solutions that align with your goals.",
     },
   ];
+
 
   return (
     <section className="w-full py-15 md:py-2">
@@ -117,7 +118,7 @@ export function FAQ() {
             </div>
 
             {/* Availability Card */}
-            <div className="border border-[#4D143D] rounded-2xl p-5 sm:px-6 py-8 w-full flex items-center justify-center gap-4">
+            <div className="border border-[#4D143D] rounded-2xl p-5 sm:px-6 py-6 w-full flex items-center justify-center gap-4">
               <div className="bg-[#4D143D] rounded-full p-3 flex items-center justify-center shrink-0">
                 <Phone className="text-white" />
               </div>
