@@ -33,7 +33,7 @@ const FeaturesSection: React.FC<FeaturesSectionProps> = ({ features, featureImag
             {/* Right Section: Image and Guest Management */}
             <div className="flex w-full">
                 <img
-                    src="/images/works/lms/down-banner.png"
+                    src={featureImage}
                     alt="Feature image"
                     className="rounded-lg w-full h-full object-cover"
                 />

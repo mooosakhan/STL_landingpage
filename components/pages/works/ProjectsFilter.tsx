@@ -5,7 +5,9 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function PortfolioSection({ data }: { data: any[] }) {
-    const categories = ["All", "Websites", "MobileApp", "Saas"];
+    const categories = data
+        ? ["All", ...Array.from(new Set(data.map((item) => item.type)))]
+        : [];
     const [active, setActive] = useState("All");
     const router = useRouter();
     const filtered =

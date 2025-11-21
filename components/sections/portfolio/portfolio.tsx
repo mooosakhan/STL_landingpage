@@ -61,22 +61,22 @@ export function Portfolio() {
   const showcase = [
     {
       id: 1,
-      image: "/images/portfolio-smit.png",
+      image: pagesData[1].showcaseImage3,
       link: pagesData[1].id
     },
     {
       id: 2,
-      image: "/images/portfolio-nahfkidunya.png",
+      image: pagesData[2].showcaseImage3,
       link: pagesData[2].id
     },
     {
       id: 3,
-      image: "/images/portfolio-snapfreez.png",
+      image: pagesData[0].showcaseImage3,
       link: pagesData[0].id
     },
     {
       id: 4,
-      image: "/images/portfolio-lms.png",
+      image: pagesData[1].showcaseImage4,
       link: pagesData[1]?.id
     },
   ];
@@ -107,7 +107,7 @@ export function Portfolio() {
               }
             >
               <Image
-                src={item.image}
+                src={item.image || ""}
                 alt={`Showcase ${item.id}`}
                 width={700}
                 height={400}
