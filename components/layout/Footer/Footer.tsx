@@ -7,14 +7,10 @@ export function Footer() {
 
   return (
     <footer
-      className="w-full text-white py-12 px-6 sm:px-10 md:px-16 lg:px-20 rounded-2xl bg-cover bg-center relative overflow-hidden"
+      className="w-full text-white py-12 px-6 sm:px-10 md:px-16 lg:px-20 rounded-2xl bg-cover bg-center relative md:overflow-hidden scale-100 md:scale-[98%] "
       style={{
-        backgroundImage: "url('/images/footer-gradient.png')", // your image here
-        scale: '98%',
-      }}
-    >
-      {/* Overlay for readability */}
-
+        backgroundImage: "url('/images/footer-gradient.png')",
+      }}>
       <div className="relative z-10 flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
         {/* Left Section */}
         <div className="flex flex-col justify-between gap-8 lg:w-1/2">

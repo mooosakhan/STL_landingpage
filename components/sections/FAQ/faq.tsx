@@ -43,7 +43,7 @@ export function FAQ() {
 
 
   return (
-    <section className="w-full py-15 md:py-2">
+    <section className="w-full py-15 md:py-2 h-auto">
       <div className="max-w-8xl mx-auto px-6 lg:px-16">
         <SectionHeader
           title={
@@ -60,7 +60,7 @@ export function FAQ() {
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8 md:mt-10">
           {/* Left Column - FAQs */}
-          <div className="col-span-2 space-y-4 max-h-[588px]  rounded-xl">
+          <div className="col-span-2 space-y-4  rounded-xl">
             {faqs.map((faq, index) => (
               <div key={faq.id}>
                 <div
