@@ -11,10 +11,7 @@ export function Hero() {
       <motion.div
         className="absolute inset-0 z-10 overflow-hidden h-[96.5vh] top-3"
       >
-        <motion.img
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: .2, ease: "easeInOut" }}
+        <img
           src="/images/image-hero-background2.png"
           alt="Hero Background"
           className="object xl:scale-x-98 absolute scale-x-97 h-[100%] w-full z-11 rounded-3xl"
@@ -22,7 +19,7 @@ export function Hero() {
         <motion.img
           initial={{ opacity: 0.1 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 2, ease: "easeInOut" }}
+          transition={{ duration: 2, ease: "backIn" }}
           src="/images/image-hero-background-gradient-1.png"
           alt="Hero Background"
           className="object-cover object-top absolute translate-y-1 w-full top-[-850] z-14 md:size-[6xl] rounded-3xl"
@@ -42,7 +39,7 @@ export function Hero() {
           className="flex w-full lg:flex-row flex-col justify-between lg:px-16 items-center gap-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          transition={{ duration: 2, ease: "easeInOut" }}
         >
           <motion.div
             className="lg:text-[3.5rem] sm:text-5xl text-3xl flex justify-start lg:text-start text-center font-semibold leading-tight"
