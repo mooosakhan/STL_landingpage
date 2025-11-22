@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export function Footer() {
@@ -20,12 +21,12 @@ export function Footer() {
             </h2>
             <button
               onClick={() => Router.push('/contact')}
-              className="bg-white text-black px-6 py-2.5 rounded-full font-medium hover:bg-gray-100 transition">
+              className="bg-white text-black px-4 py-2.5 rounded-full font-medium hover:bg-gray-100 transition">
               Get Started
             </button>
           </div>
 
-          <div className="flex items-center gap-3 pt-4">
+          {/* <div className="flex items-center gap-3 pt-4">
             <Image
               src="/images/logo-stl.png"
               alt="Salyani Tech Logo"
@@ -36,50 +37,34 @@ export function Footer() {
             <span className="font-semibold tracking-wide text-sm sm:text-base">
               SALYANI TECH
             </span>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Section - Links */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 sm:gap-10 md:gap-16 text-sm w-full lg:w-2/3">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-8 sm:gap-10 md:gap-0 text-sm w-full lg:w-1/2">
           {/* Features */}
           <div>
-            <h4 className="font-semibold mb-3 text-base">Features</h4>
+            <h4 className="font-semibold mb-3 text-base">Extra Links</h4>
             <ul className="space-y-2 text-gray-200">
-              <li><a href="#" className="hover:text-white transition">Plan</a></li>
-              <li><a href="#" className="hover:text-white transition">Build</a></li>
-              <li><a href="#" className="hover:text-white transition">Insights</a></li>
-              <li><a href="#" className="hover:text-white transition">Customer Requests</a></li>
-              <li><a href="#" className="hover:text-white transition">Linear Asks</a></li>
+              <li><Link href="#" className="hover:text-white transition">Home</Link></li>
+              <li><Link href="/about" className="hover:text-white transition">About</Link></li>
+              <li><Link href="/portfolio" className="hover:text-white transition">Portfolio</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition">Contact us</Link></li>
             </ul>
           </div>
 
           {/* Product */}
           <div>
-            <h4 className="font-semibold mb-3 text-base">Product</h4>
-            <ul className="space-y-2 text-gray-200">
-              <li><a href="#" className="hover:text-white transition">Pricing</a></li>
-              <li><a href="#" className="hover:text-white transition">Method</a></li>
-              <li><a href="#" className="hover:text-white transition">Integrations</a></li>
-              <li><a href="#" className="hover:text-white transition">Changelog</a></li>
-              <li><a href="#" className="hover:text-white transition">Documentation</a></li>
-              <li><a href="#" className="hover:text-white transition">Download</a></li>
-              <li><a href="#" className="hover:text-white transition">Switch</a></li>
+            <h4 className="font-semibold mb-3 text-base">Contact</h4>
+            <ul className="space-y-3 text-md text-gray-200">
+              <li><a className="hover:text-white transition">Plot# A-197, Block 13D-1 Gulshan-e-Iqbal, Karachi, 75300</a></li>
+              <li><a className="hover:text-white transition">+92 331 4027135</a></li>
+              <li><a className="hover:text-white transition">saylanitech.pk@gmail.com</a></li>
             </ul>
           </div>
 
           {/* Company */}
-          <div>
-            <h4 className="font-semibold mb-3 text-base">Company</h4>
-            <ul className="space-y-2 text-gray-200">
-              <li><a href="#" className="hover:text-white transition">About</a></li>
-              <li><a href="#" className="hover:text-white transition">Customers</a></li>
-              <li><a href="#" className="hover:text-white transition">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition">Now</a></li>
-              <li><a href="#" className="hover:text-white transition">Readme</a></li>
-              <li><a href="#" className="hover:text-white transition">Quality</a></li>
-              <li><a href="#" className="hover:text-white transition">Brand</a></li>
-            </ul>
-          </div>
+
         </div>
       </div>
 
